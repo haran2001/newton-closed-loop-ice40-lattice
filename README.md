@@ -476,7 +476,3 @@ Newton then performs the policy search, returns the selected strategy, and attac
 - PWM needs a broader seed-distribution follow-up if we want a statistically bounded improvement statement rather than a selected-candidate demonstration.
 - CNN now has a broad 1150-attempt sweep, and the best result is objective-specific: excellent if one DSP is acceptable; not selected if DSP must remain zero.
 - Power is currently inferred only by resource proxy. The CNN result likely reduces routing/LUT dynamic power pressure because LC drops by 18.7%, but real power should be measured or estimated with the vendor flow before making a power claim.
-
-Recommended ask:
-
-> We'd like a follow-up technical conversation with someone on the Radiant strategy/compiler team to discuss whether one small pilot objective — for example, "area with timing preserved" or "performance with one-DSP budget" — could be exposed as a closed-loop strategy selection layer on one or two customer-style designs under NDA.
